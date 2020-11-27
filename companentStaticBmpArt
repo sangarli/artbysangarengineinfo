@@ -1,0 +1,33 @@
+组件 ArtBySangar.StaticBmpArt
+主要函数
+setBmp(_bmppath: string | eui.Image | egret.Texture | egret.BitmapData, _type?: number): ArtBySangar.StaticBmpArt;
+功能添加或置换图片
+返回置换后的图片
+
+
+setPosition(_x: number, _y: number): void;
+ 设置位置
+ 
+ 
+setContentSize(_width: number, _height: number, _type?: number): void;
+设置尺寸
+
+
+setActiveAnchorPoint(_ax: number, _ay: number): void;
+动态修改i图片锚点 位置改变
+
+
+setStaticAnchorPoint(_ax: number, _ay: number): void;
+静态修改i图片锚点 位置不变
+
+
+set9Scale(_rect: egret.Rectangle): void;
+设置九宫格为九宫格拉伸做准备
+
+
+runAction(_actionpropsarr: ArtBySangar.ActionProps[]): egret.Tween;
+ 执行各种缓动
+ 
+ 
+ setFilters(_colorfilter: number[] | egret.GlowFilter): void;
+ 设置图片色值矩阵
